@@ -31,14 +31,7 @@ Train/Test Split: Keeps 80% of the data for training and 20% for testing.
 
 Evaluation: Uses accuracy and a classification report for metrics
 
-## Data Preprocessing Steps:
-Load Data: Read the dataset using Pandas.
-
-Label Encoding: Convert labels spam and ham to binary values (1 for spam, 0 for ham).
-
-Text Cleaning: Convert messages to lowercase and remove special characters and punctuation.
-
-Text Vectorization: Use TF-IDF Vectorizer to convert text data into numerical feature vectors.
+Label Encoding: Convert labels spam and ham to binary values (1 for spam, 0 for ham)
 
 ## Machine Learning Models Used:
 We trained and compared the performance of three classification models:
@@ -74,6 +67,6 @@ Bar Chart: Comparing model performance visually
 All models showed high accuracy. Logistic Regression and Random Forest generally performed slightly better than Naive Bayes, depending on the random seed and dataset distribution. Visualizations helped to analyze model performance clearly.
 
 ![Image](https://github.com/user-attachments/assets/ff257d78-7aa5-4f19-94f1-b60939332b4c)
-![Image](https://github.com/user-attachments/assets/29364d98-7b28-4703-a764-260f7437982a)
 ![Image](https://github.com/user-attachments/assets/c3a68af4-f3e5-42c8-b6b8-22713f7bac71)
 ![Image](https://github.com/user-attachments/assets/0a4ed2d3-cc03-47c4-95b2-bdd07cb8ea2a)
+![Image](https://github.com/user-attachments/assets/29364d98-7b28-4703-a764-260f7437982a)
